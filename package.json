@@ -1,8 +1,12 @@
 {
   "name": "github-battle",
+
   "version": "1.0.0",
+
   "description": "A React application built from scratch - reacttraining.com tutorial",
+
   "main": "webpack.config.js",
+
   "scripts": {
     "create": "webpack"
   },
@@ -26,7 +30,6 @@
   },
 
   "homepage": "https://github.com/noah-wisch/github-battle#readme",
-
   "devDependencies": {
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
