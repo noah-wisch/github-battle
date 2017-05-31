@@ -1,34 +1,27 @@
 {
   "name": "github-battle",
-
   "version": "1.0.0",
-
   "description": "A React application built from scratch - reacttraining.com tutorial",
-
   "main": "webpack.config.js",
-
   "scripts": {
     "create": "webpack"
   },
-
   "babel": {
-    "presets": [
-      "env",
-      "react"
-    ]
+    "compact": false,
+      "presets": [
+        "env",
+        "react"
+      ]
   },
-
   "repository": {
     "type": "git",
     "url": "git+https://github.com/noah-wisch/github-battle.git"
   },
-
   "author": "Noah Wisch (@noah-wisch)",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/noah-wisch/github-battle/issues"
   },
-
   "homepage": "https://github.com/noah-wisch/github-battle#readme",
   "devDependencies": {
     "babel-core": "^6.24.1",
@@ -41,7 +34,6 @@
     "webpack": "^2.6.1",
     "webpack-dev-server": "^2.4.5"
   },
-
   "dependencies": {
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
