@@ -4,7 +4,7 @@
   "description": "A React application built from scratch - reacttraining.com tutorial",
   "main": "webpack.config.js",
   "scripts": {
-    "create": "webpack"
+    "start": "webpack-dev-server --open"
   },
   "babel": {
     "compact": false,

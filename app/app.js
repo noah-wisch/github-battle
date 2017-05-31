@@ -2,6 +2,7 @@
 // var ReactDOM = require('react-dom');
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
+require('./style.css');
 
 // components are concerned w/ 3 things: state, lifecycle event, UI
 
